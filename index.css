@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Shafarik&display=swap');
+
+*{
+    font-family: "Shafarik", serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow: hidden;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question{
+    background: burlywood;
+    position: absolute;
+    top: 20%;
+    color: #b17338;
+    line-height: 15rem;
+    text-align: center;
+    font-size: 8rem;
+    width: 50rem;
+    height: 15rem;
+}
+
+.answer{
+    height: 10rem;
+    background: #000;
+    font-size: 5rem;
+    color: white;
+    text-align: left;
+
+}
+
+.answer:nth-child(1){
+    background: #529c52;
+}
+
+.answer:nth-child(2){
+    background: indianred;
+}
+
+.flowers-container{
+    position: absolute;
+}
+
+.rose{
+    position: absolute;
+    width: 10rem;
+    bottom: 0;
+}
+
+.roses{
+    position: absolute;
+    width: 20rem;
+    bottom: 0;
+
+}
